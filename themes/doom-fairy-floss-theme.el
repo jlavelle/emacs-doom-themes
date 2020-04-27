@@ -186,6 +186,7 @@ determine the exact padding."
    ;; org-mode
    ((org-block &override) :background base0)
    ((org-block-begin-line &override) :background base0)
+   (org-latex-and-related :foreground fg)
    (org-scheduled         :foreground green)
    (org-scheduled-previously :foreground yellow)
    (org-scheduled-today   :foreground orange)
